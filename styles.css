@@ -1,0 +1,51 @@
+h1 {
+  display: block;
+  margin: 0;
+  padding-top: 80px;
+  padding-bottom: 60px;
+  font-family: Major Mono Display;
+}
+
+h3 {
+  display: block;
+  margin: 0;
+  padding-bottom: 40px;
+  font-family: Roboto Mono;
+}
+
+body {
+  margin: 0;
+  background-color: #e6ffec;
+  text-align: center;
+}
+
+.cloud1 {
+  display: block;
+  top: 50px;
+  left: 65%;
+  position: relative;
+}
+
+.cloud2 {
+  display: block;
+  position: relative;
+  left: 400px;
+}
+
+.profile-pic {
+  margin-top: 100px;
+  width: 20%;
+  border-radius: 100%;
+}
+
+.top-container {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
+
+.bottom-container {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
