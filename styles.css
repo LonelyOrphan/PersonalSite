@@ -2,8 +2,17 @@ h1 {
   display: block;
   margin: 0;
   padding-top: 80px;
-  padding-bottom: 60px;
-  font-family: Major Mono Display;
+  font-family: Fredericka the Great;
+  font-size: 3rem;
+  color: white;
+  line-height: 2;
+}
+
+h2 {
+  font-family: Roboto Mono;
+  font-size: 2rem;
+  font-weight: normal;
+  color: white;
 }
 
 h3 {
@@ -13,23 +22,31 @@ h3 {
   font-family: Roboto Mono;
 }
 
+p {
+  font-family: Roboto Slab;
+}
+
 body {
   margin: 0;
-  background-color: #e6ffec;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(231, 115, 168, 1) 0%, rgba(143, 152, 201, 1) 66%, rgba(149, 255, 248, 1) 100%);
   text-align: center;
 }
 
 .cloud1 {
   display: block;
   top: 50px;
-  left: 65%;
+  left: 1200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   position: relative;
 }
 
 .cloud2 {
   display: block;
   position: relative;
-  left: 400px;
+  padding-top: 75px;
+  left: 600px;
 }
 
 .profile-pic {
@@ -44,8 +61,6 @@ body {
   background-color: blue;
 }
 
-.bottom-container {
-  width: 200px;
-  height: 200px;
-  background-color: red;
+a {
+  color: #11999E;
 }
