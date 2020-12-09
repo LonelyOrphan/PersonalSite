@@ -61,6 +61,25 @@ body {
   background-color: blue;
 }
 
-a {
-  color: #11999E;
+.skill-row {
+  width: 50%;
+  line-height: 2;
+  margin: 100px auto 100px;
+  text-align: left;
+}
+
+.skill-description {
+  clear: both;
+}
+
+.porridge {
+  width: 25%;
+  float: left;
+  padding-right: 20px;
+}
+
+.tetris {
+  width: 25%;
+  float: right;
+  padding-left: 20px;
 }
